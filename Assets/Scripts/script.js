@@ -6,7 +6,7 @@
 var typeScript = document.getElementById('typeScript');
 
 const emploi = ["front-end", "c#", "unity", "Copywritter"]; 
-const type = "Je suis développeur ";
+const type = "Je suis un apprenti développeur ";
 
  
 //////////////Cursor Animation//////////////
@@ -34,7 +34,7 @@ const type = "Je suis développeur ";
    
 // use the typeScript object to  do the animation of typeScript
 var typed = new Typed(typeScript, {
-    strings :["erreur" ,`${type} ${emploi[0]}`, `${type} ${emploi[1]}`, `${type} ${emploi[2]}`, `${emploi[3]}`],
+    strings :["erreur" ,`${type} ${emploi[0]}`, `${type} ${emploi[1]}`, `${type} ${emploi[2]}`],
     typeSpeed: 150,
     backspeed: 450,
     loop: true
