@@ -383,6 +383,7 @@ padding: 20px;
     top: 10%;
     left: 10%;
     animation: 4s linear infinite;
+    opacity: 0.2;
   }
   
   .animate li:nth-child(1) {
