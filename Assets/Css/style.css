@@ -575,6 +575,11 @@ line-height: 1.6;
   color: crimson;
 }
 
+.img-principal-projets{
+  max-width: 40%;
+}
+
+
 .impair{
 background-color: #000a47;
 }
