@@ -1,0 +1,297 @@
+/* ---------------------------Body_project--------------------------- */
+
+
+/* section project */
+
+
+.panel{
+    position: relative;
+
+    overflow: hidden;
+    /* scroll-snap-align: start; */
+   }
+
+   .panel article{
+     display: flex;
+     justify-content: center;
+     z-index: 1;
+    
+   }
+   
+   /*----------------------- project content -----------------------*/
+   
+   img {
+    border: 3px solid red;
+   }
+   
+   .project_content{
+     display: flex;
+     justify-content: space-between;
+     padding: 80px;
+     overflow: hidden;
+     /* position: absolute; */
+     
+     height: 100%;
+     z-index: 2;
+   }
+   
+   .project_content p 
+   {
+     line-height: 1.2 rem;
+     color: #fff;
+   }
+   
+   .project_content .infos{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+   }
+   
+   .project_content .infos p,h3{
+   
+   margin: 10px 0;
+   line-height: 1.6;
+   }
+   
+   .project_content .display img{
+     /* max-width: 765px; */
+     border-radius: 20px;
+   }
+   
+   .project_content .icon{
+     display: flex;
+   }
+   
+   .project_content .fa-brands{
+     margin-right:  5px;
+   }
+   
+   .project_content p{
+     font-size: 1.5rem;
+   }
+   
+   .project_content h3{
+     font-size: 5rem;
+     font-family: 'Anton', sans-serif;
+     color:  #fff;
+   }
+   
+   .project_content h2{
+     font-size: 6rem;
+     font-family: 'Anton', sans-serif;
+     margin: 10px 0;
+     color: crimson;
+   }
+
+   .project_content{
+    border: 5px solid white;
+    text-shadow: 0 0 60px rgba(202,228,225,0.8);
+    margin: 30px 0;
+   }
+   
+   .img-principal-projets{
+     max-width: 40%;
+   }
+   
+   
+   .impair{
+   background-color: #000a47;
+   }
+   
+   .impair a{
+     color: #fff;
+   }
+   
+   
+   
+   #presentation{
+     justify-content: center;
+   }
+   
+   #presentation p{
+     font-size: 3rem;
+   }
+   
+   #presentation span{
+     font-size:  6rem;
+     font-weight: bold;
+   }
+
+   /* Button for projects */
+
+.btn-projects
+{
+  background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.btn-projects:hover,
+  .btn-projects:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+  }
+  
+  .btn-projects:active {
+    opacity: .5;
+  }
+
+
+.cv_btn{
+  position: relative;
+  display: inline-block;
+  padding: 30px 61px;
+  border-radius: 4px;
+  color: #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  margin: 25px;
+  font-family: "Roboto", sans-serif;
+  filter: hue-rotate(0deg);
+  border: 2px solid #d2bdff;
+  transition: all 0.1s linear;
+
+}
+
+.cv_btn{
+  color: #fff;
+}
+
+.cv_btn:hover{
+  border: 1px solid transparent;
+}
+
+
+.cv_btn:hover span{
+  position: absolute;
+  display: block;
+}
+
+.cv_btn:hover span:nth-child(1){
+  filter: hue-rotate(0deg);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #3a86ff);
+  animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+  0%  { 
+        left: -100%;
+      }
+      50%,
+      100% 
+      {
+        left: 100%;
+      }
+}
+
+.cv_btn:hover span:nth-child(2){
+  filter: hue-rotate(60deg);
+        top: -100%;
+        right: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(180deg, transparent, #3a86ff);
+        animation: animate2 1s linear infinite;
+        animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.cv_btn:hover span:nth-child(3){
+  filter: hue-rotate(120deg);
+  bottom: 0;
+  right: 0;
+  width: 100%;
+
+  background: linear-gradient(270deg, transparent, #3a86ff);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+    height: 3px;
+  }
+  50%,
+  100% {
+    height: 2px;
+    right: 100%;
+  }
+}
+
+.cv_btn:hover span:nth-child(4){
+  filter: hue-rotate(300deg);
+        bottom: -100%;
+        left: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(360deg, transparent, #3a86ff);
+        animation: animate4 1s linear infinite;
+        animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+  
+.btn {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Project Details */
+
+.project-details{
+  color:  white;
+}
+
+.project-details img {
+  margin: 0;
+}
+
+.project-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.project-details p {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.project-details h1 {
+  margin: 20px 0;
+}
