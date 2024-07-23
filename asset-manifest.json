@@ -1,22 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.abed3391.css",
-    "main.js": "/static/js/main.9a11886f.js",
-    "static/media/boretudes-front-page.png": "/static/media/boretudes-front-page.7700ccee8f7bf0510db5.png",
-    "static/media/timflix.png": "/static/media/timflix.5beb072e9b8f69b944f3.png",
+    "main.css": "/static/css/main.9e6c7e6f.css",
+    "main.js": "/static/js/main.2633d4bd.js",
     "static/media/WaganeGoodVibes.JPG": "/static/media/WaganeGoodVibes.4a9d120bfb6120cc5d7f.JPG",
-    "static/media/theactsministry.png": "/static/media/theactsministry.57493391c0e6ab5c46bf.png",
-    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.d6ba81cc7744449e8f6b.png",
     "static/media/WaganeOrdi.jpg": "/static/media/WaganeOrdi.099a448e13e18278517b.jpg",
-    "static/media/logo-MWD.png": "/static/media/logo-MWD.02a3c74cb0c50029a355.png",
+    "static/media/MWD-outside.jpeg": "/static/media/MWD-outside.6216f15e816e1b922842.jpeg",
     "static/media/infos.jpeg": "/static/media/infos.e4354d30a2e11e982ac4.jpeg",
     "static/media/logo-ecole-secondaire-mgr-a-m-parent.png": "/static/media/logo-ecole-secondaire-mgr-a-m-parent.b38fd929faa0580d5b24.png",
+    "static/media/laravel.svg": "/static/media/laravel.6f8afa8068ec283083af194c57f425bc.svg",
     "index.html": "/index.html",
-    "main.abed3391.css.map": "/static/css/main.abed3391.css.map",
-    "main.9a11886f.js.map": "/static/js/main.9a11886f.js.map"
+    "main.9e6c7e6f.css.map": "/static/css/main.9e6c7e6f.css.map",
+    "main.2633d4bd.js.map": "/static/js/main.2633d4bd.js.map"
   },
   "entrypoints": [
-    "static/css/main.abed3391.css",
-    "static/js/main.9a11886f.js"
+    "static/css/main.9e6c7e6f.css",
+    "static/js/main.2633d4bd.js"
   ]
 }
