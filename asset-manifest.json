@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e6c7e6f.css",
-    "main.js": "/static/js/main.2633d4bd.js",
+    "main.css": "/static/css/main.b1b7366e.css",
+    "main.js": "/static/js/main.8eba294e.js",
     "static/media/WaganeGoodVibes.JPG": "/static/media/WaganeGoodVibes.4a9d120bfb6120cc5d7f.JPG",
     "static/media/WaganeOrdi.jpg": "/static/media/WaganeOrdi.099a448e13e18278517b.jpg",
     "static/media/MWD-outside.jpeg": "/static/media/MWD-outside.6216f15e816e1b922842.jpeg",
@@ -9,11 +9,11 @@
     "static/media/logo-ecole-secondaire-mgr-a-m-parent.png": "/static/media/logo-ecole-secondaire-mgr-a-m-parent.b38fd929faa0580d5b24.png",
     "static/media/laravel.svg": "/static/media/laravel.6f8afa8068ec283083af194c57f425bc.svg",
     "index.html": "/index.html",
-    "main.9e6c7e6f.css.map": "/static/css/main.9e6c7e6f.css.map",
-    "main.2633d4bd.js.map": "/static/js/main.2633d4bd.js.map"
+    "main.b1b7366e.css.map": "/static/css/main.b1b7366e.css.map",
+    "main.8eba294e.js.map": "/static/js/main.8eba294e.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e6c7e6f.css",
-    "static/js/main.2633d4bd.js"
+    "static/css/main.b1b7366e.css",
+    "static/js/main.8eba294e.js"
   ]
 }
